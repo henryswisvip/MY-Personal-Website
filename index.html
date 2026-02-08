@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Henry Wong | Finance & Quantitative Economics</title>
+    <meta
+      name="description"
+      content="Personal website and portfolio for finance and quantitative economics roles."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <div class="container topbar-inner">
+          <div class="brand">
+            <span class="logo-mark">HW</span>
+            <div class="brand-text">
+              <span class="brand-name">Henry Wong</span>
+              <span class="brand-role">Finance & Quantitative Economics</span>
+            </div>
+          </div>
+          <nav class="site-nav" data-nav id="primary-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-toggle
+            aria-controls="primary-nav"
+            aria-expanded="false"
+          >
+            Menu
+          </button>
+        </div>
+      </header>
+
+      <section class="ticker" aria-label="Quick facts">
+        <div class="container ticker-inner">
+          <span>UIUC Senior</span>
+          <span>B.S. Quantitative Economics & Econometrics</span>
+          <span>GPA 3.97 / 4.00</span>
+          <span>Champaign, IL</span>
+        </div>
+      </section>
+
+      <main>
+        <section id="home" class="hero">
+          <div class="container hero-grid">
+            <div class="hero-content">
+              <p class="eyebrow">Finance & Quant Econ</p>
+              <h1>Henry Wong</h1>
+              <p class="lead">
+                Finance & quant economics student focused on systematic
+                strategies, econometric modeling, and data systems that support
+                real-world decisions.
+              </p>
+              <div class="hero-actions">
+                <a class="btn primary" href="#contact">Let’s talk</a>
+                <a class="btn secondary" href="resume.pdf" download>
+                  Download resume
+                </a>
+              </div>
+              <div class="hero-stats">
+                <div class="stat-card">
+                  <span class="stat-label">Focus</span>
+                  <span class="stat-value">Systematic Trading</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-label">Methods</span>
+                  <span class="stat-value">Econometrics + Time Series</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-label">Strength</span>
+                  <span class="stat-value">Data + Infrastructure</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero-panel">
+              <div class="panel-card">
+                <p class="panel-title">Highlights</p>
+                <ul class="panel-list">
+                  <li>Quant trading systems with backtesting discipline</li>
+                  <li>Econometric modeling for causal and time-series insight</li>
+                  <li>Low-latency infrastructure and monitoring</li>
+                </ul>
+              </div>
+              <div class="panel-card accent">
+                <p class="panel-title">Signal Snapshot</p>
+                <div class="sparkline" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <p class="panel-note">I prioritize interpretable models over black boxes.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section reveal">
+          <div class="container about-grid">
+            <div>
+              <div class="section-headline">
+                <h2>About</h2>
+                <p class="section-sub">
+                  Finance + econometrics with a focus on practical outcomes.
+                </p>
+              </div>
+              <p>
+                I’m a finance and quantitative economics student who enjoys
+                turning messy data into clean, actionable signals. My work spans
+                systematic trading, econometric modeling, and building the data
+                systems that keep analysis dependable. I care about rigorous
+                diagnostics, realistic assumptions, and communication that helps
+                teams act with confidence.
+              </p>
+            </div>
+            <div class="card about-card">
+              <h3>What I value</h3>
+              <ul>
+                <li>Evidence-based decisions and transparent methods</li>
+                <li>Models that are interpretable and stress-tested</li>
+                <li>Systems that keep data reliable</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section section-contrast reveal">
+          <div class="container">
+            <div class="section-headline">
+              <h2>Skills</h2>
+              <p class="section-sub">
+                A toolkit built for quant finance and applied econometrics.
+              </p>
+            </div>
+            <div class="skill-grid">
+              <article class="skill-card">
+                <h3>Programming</h3>
+                <p>Python, R, SQL, Kotlin, JavaScript.</p>
+                <div class="tag-row">
+                  <span class="tag">Python</span>
+                  <span class="tag">R</span>
+                  <span class="tag">SQL</span>
+                </div>
+              </article>
+              <article class="skill-card">
+                <h3>Data</h3>
+                <p>Pandas, NumPy, scikit-learn.</p>
+                <div class="tag-row">
+                  <span class="tag">Pandas</span>
+                  <span class="tag">NumPy</span>
+                  <span class="tag">scikit-learn</span>
+                </div>
+              </article>
+              <article class="skill-card">
+                <h3>Quantitative</h3>
+                <p>
+                  Econometrics, time-series analysis, regression, hypothesis
+                  testing, optimization.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Econometrics</span>
+                  <span class="tag">Time Series</span>
+                </div>
+              </article>
+              <article class="skill-card">
+                <h3>Trading & Systems</h3>
+                <p>
+                  Systematic strategies, backtesting, risk management, APIs,
+                  Linux, Git.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Backtesting</span>
+                  <span class="tag">Risk</span>
+                  <span class="tag">APIs</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="section reveal">
+          <div class="container">
+            <div class="section-headline">
+              <h2>Applied Experience</h2>
+              <p class="section-sub">Projects and analysis grounded in data.</p>
+            </div>
+            <div class="timeline">
+              <article>
+                <div class="timeline-header">
+                  <h3>Founder & Quantitative Developer</h3>
+                  <span>2023 — Present</span>
+                </div>
+                <p class="company">Sprout Network Solution · Hong Kong SAR</p>
+                <ul>
+                  <li>
+                    Designed and operated low-latency network infrastructure for
+                    data-intensive, trading-oriented clients.
+                  </li>
+                  <li>
+                    Optimized routing, redundancy, and monitoring for real-time
+                    systems; maintained 99.9% uptime.
+                  </li>
+                  <li>
+                    Implemented performance logging, capacity planning, and risk
+                    controls across distributed services.
+                  </li>
+                </ul>
+              </article>
+              <article>
+                <div class="timeline-header">
+                  <h3>Quantitative Analytics Intern</h3>
+                  <span>2023.05 — 2023.08</span>
+                </div>
+                <p class="company">Tencent · Shenzhen, China</p>
+                <ul>
+                  <li>
+                    Analyzed large-scale behavioral and bidding datasets (5M+
+                    observations) using Python and SQL.
+                  </li>
+                  <li>
+                    Built regression models and statistical summaries to
+                    evaluate engagement and pricing efficiency.
+                  </li>
+                  <li>
+                    Designed and evaluated A/B experiments; translated results
+                    into actionable optimization insights.
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+          <div class="container">
+            <div class="section-headline section-headline-row">
+              <div>
+                <h2>Projects</h2>
+                <p class="section-sub">Personal and academic work.</p>
+              </div>
+              <div class="filters" role="tablist" aria-label="Project filters">
+                <button class="filter active" data-filter="all" role="tab">
+                  All
+                </button>
+                <button class="filter" data-filter="finance" role="tab">
+                  Finance
+                </button>
+                <button class="filter" data-filter="econometrics" role="tab">
+                  Econometrics
+                </button>
+                <button class="filter" data-filter="product" role="tab">
+                  Product
+                </button>
+              </div>
+            </div>
+            <div class="project-grid">
+              <article class="project-card" data-tags="finance">
+                <h3>Quant Trading Bot</h3>
+                <p>
+                  Systematic multi-asset trading framework for crypto and U.S.
+                  equities using exchange and broker APIs.
+                </p>
+                <div class="project-meta">
+                  <span>Python</span>
+                  <span>Backtesting</span>
+                  <span>2025</span>
+                </div>
+                <p class="project-note">
+                  Implemented momentum, mean-reversion, and volatility-targeting
+                  strategies with risk limits and walk-forward evaluation.
+                </p>
+              </article>
+              <article class="project-card" data-tags="product econometrics">
+                <h3>Campus Polling App</h3>
+                <p>
+                  Real-time data collection platform for campus surveys with
+                  structured ingestion and analysis.
+                </p>
+                <div class="project-meta">
+                  <span>Kotlin</span>
+                  <span>Firebase</span>
+                  <span>2024</span>
+                </div>
+                <p class="project-note">
+                  Collected datasets from 200+ users and performed exploratory
+                  and summary statistical analysis.
+                </p>
+              </article>
+              <article class="project-card" data-tags="product">
+                <h3>School Weather App</h3>
+                <p>
+                  Personal school project: a campus weather dashboard with live
+                  forecasts and alerts, used daily by classmates and faculty.
+                </p>
+                <div class="project-meta">
+                  <span>React</span>
+                  <span>OpenWeather API</span>
+                  <span>2023</span>
+                </div>
+                <a class="project-link" href="https://weather.swisvip.eu.org">
+                  weather.swisvip.eu.org
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="section reveal">
+          <div class="container about-grid">
+            <div>
+              <div class="section-headline">
+                <h2>Education</h2>
+                <p class="section-sub">University of Illinois Urbana-Champaign</p>
+              </div>
+              <p>
+                B.S. in Quantitative Economics & Econometrics<br />
+                2024 — 2026 · GPA 3.97 / 4.00
+              </p>
+              <p class="education-note">
+                James Scholar Honors · Dean’s List
+              </p>
+              <p class="education-note">
+                Coursework: Econometrics I–II, Probability Theory, Mathematical
+                Statistics, Time Series Analysis, Optimization, Algorithms
+              </p>
+            </div>
+            <div class="card about-card">
+              <h3>Focus Areas</h3>
+              <ul>
+                <li>Econometrics and causal inference</li>
+                <li>Financial markets and valuation</li>
+                <li>Time-series forecasting</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="publications" class="section reveal">
+          <div class="container">
+            <div class="section-headline">
+              <h2>Publications</h2>
+              <p class="section-sub">Selected research writing.</p>
+            </div>
+            <div class="card">
+              <p class="publication">
+                Henry Wong. “Blockchain technology in smart cities and
+                photovoltaic power generation.” <em>Journal of Smart Cities</em>
+                (2023).
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section reveal">
+          <div class="container contact-panel">
+            <div>
+              <div class="section-headline">
+                <h2>Contact</h2>
+                <p class="section-sub">
+                  Open to finance, quant, and research opportunities.
+                </p>
+              </div>
+              <p>
+                If you’re hiring for a role that needs rigorous analysis and
+                clear communication, let’s connect.
+              </p>
+              <div class="contact-actions">
+                <a class="btn primary" href="mailto:henryw7@illinois.edu">
+                  Email me
+                </a>
+                <button class="btn secondary" type="button" data-copy-email>
+                  Copy email
+                </button>
+              </div>
+              <p class="contact-note">
+                Email: <span data-email>henryw7@illinois.edu</span>
+              </p>
+              <p class="contact-note">
+                Phone: <span data-phone>(+1) 217-904-2822</span>
+              </p>
+            </div>
+            <div class="card contact-card">
+              <h3>Links</h3>
+              <ul class="link-list">
+                <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                <li><a href="https://github.com">GitHub</a></li>
+                <li>
+                  <a href="https://weather.swisvip.eu.org">Weather App</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-content">
+          <p>© 2026 Henry Wong. All rights reserved.</p>
+          <a href="#home" class="back-to-top">Back to top</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
